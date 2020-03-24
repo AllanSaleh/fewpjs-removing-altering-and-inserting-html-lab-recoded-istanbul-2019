@@ -3,10 +3,6 @@ let main = document.querySelector('main#main');
 
 main.remove();
 
-let newHeader = document.querySelector('h1#victory');
-
-newHeader.nodeName = 'h1';
-
-newHeader.id = 'victory';
+let newHeader = document.createElement('h1#victory');
 
 newHeader.innerHTML = `YOUR-NAME is the champion`;
