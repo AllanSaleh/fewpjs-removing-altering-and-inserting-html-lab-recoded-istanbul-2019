@@ -5,6 +5,6 @@ main.remove();
 
 let newHeader = document.querySelector('h1#victory');
 
-let name = newHeader.nodeName = "Allan";
+newHeader.nodeName = "Allan";
 
-newHeader.innerHTML = `${name} is the champion`;
+newHeader.innerHTML = `${newHeader.nodeName} is the champion`;
