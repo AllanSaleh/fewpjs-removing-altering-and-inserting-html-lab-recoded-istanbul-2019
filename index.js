@@ -7,4 +7,6 @@ let newHeader = document.querySelector('h1#victory');
 
 newHeader.nodeName = 'h1';
 
+newHeader.id = 'victory';
+
 newHeader.innerHTML = `YOUR-NAME is the champion`;
